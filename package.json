@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next -p $PORT",
-    "build": "next -p $PORT",
+    "build": "echo 'lol'",
     "start": "next -p $PORT"
     
   },
