@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build && next export",
-    "start": "next start -p $PORT"
+    "dev": "next -p $PORT",
+    "build": "next -p $PORT",
+    "start": "next build && next export && next start -p $PORT"
   },
   "keywords": [],
   "author": "",
@@ -17,3 +17,4 @@
     "react-dom": "^16.13.1"
   }
 }
+//next build && next export",
