@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next -p $PORT",
     "build": "next -p $PORT",
-    "start": "next build && next export && next start -p $PORT"
+    "start": "next -p $PORT",
+    
   },
   "keywords": [],
   "author": "",
@@ -17,4 +18,5 @@
     "react-dom": "^16.13.1"
   }
 }
-//next build && next export",
+
+//"start": "next build && next export && next start -p $PORT"
