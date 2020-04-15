@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next -p $PORT",
     "build": "next -p $PORT",
-    "start": "next -p $PORT",
+    "start": "next -p $PORT"
     
   },
   "keywords": [],
@@ -19,4 +19,4 @@
   }
 }
 
-//"start": "next build && next export && next start -p $PORT"
+

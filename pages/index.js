@@ -5,3 +5,4 @@ export default function Index() {
     </div>
   );
 }
+//"start": "next build && next export && next start -p $PORT"
